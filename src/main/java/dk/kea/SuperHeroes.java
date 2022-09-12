@@ -16,10 +16,8 @@ public class SuperHeroes {
     this.SuperPower = SuperPower;
     }
 
-    @Override
-    public String toString() {
+    public String getFullSuperHero() {
         FullSuperHero = (SuperHeroName + ", " + NormalName+ ", " + SuperPower);
         return FullSuperHero;
     }
-
 }
