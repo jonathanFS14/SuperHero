@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba4e7d0-411f-4308-a55e-1617de18c0dd" name="Changes" comment="do while loop i main">
+    <list default="true" id="aba4e7d0-411f-4308-a55e-1617de18c0dd" name="Changes" comment="bruger input 2 så man kan se den fulde database i programmet, det printer dog ikke pænt ud endnu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" afterDir="false" />
@@ -59,7 +59,7 @@
       <updated>1662971335233</updated>
       <workItem from="1662971336389" duration="12542000" />
       <workItem from="1663015755646" duration="20000" />
-      <workItem from="1663058073646" duration="16325000" />
+      <workItem from="1663058073646" duration="23609000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1662971614281</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663073151704</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bruger input 2 så man kan se den fulde database i programmet, det printer dog ikke pænt ud endnu">
+      <created>1663077518261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663077518261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +126,7 @@
     <MESSAGE value="oprettelse af array i database, jeg kan dog ikke få det til at fungere endnu" />
     <MESSAGE value="forbundet database med main" />
     <MESSAGE value="do while loop i main" />
-    <option name="LAST_COMMIT_MESSAGE" value="do while loop i main" />
+    <MESSAGE value="bruger input 2 så man kan se den fulde database i programmet, det printer dog ikke pænt ud endnu" />
+    <option name="LAST_COMMIT_MESSAGE" value="bruger input 2 så man kan se den fulde database i programmet, det printer dog ikke pænt ud endnu" />
   </component>
 </project>

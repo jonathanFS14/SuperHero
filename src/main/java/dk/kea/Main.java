@@ -23,14 +23,19 @@ public class Main {
                 String normalName = sc.nextLine();
                 System.out.println("Indtast superkræft");
                 String superPower = sc.nextLine();
-                database.addSuperHero(superHeroName, normalName, superPower);
+                System.out.println("Indtast oprindelses år");
+                String originYear = sc.nextLine();
+                System.out.println("Indtast styrke 1-100");
+                String strenght = sc.nextLine();
+                System.out.println("Er superhelten et menneske? ja/nej");
+                String isHuman = sc.nextLine();
+                database.addSuperHero(superHeroName, normalName, superPower, originYear, strenght, isHuman);
             }
             else if (brugerinput == 2) {
                 System.out.println("Liste af superhelte:");
-                System.out.println(" ");
-                System.out.println(database.getSuperHeroesdata());
+                System.out.println("\n" + database.getSuperHeroesdata());
                 // TODO: lav loop der løber igennem alle og udskriver
-                System.out.println(" ");
+
             }
             else {
             System.exit(0);
