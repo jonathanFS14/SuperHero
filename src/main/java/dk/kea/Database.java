@@ -1,17 +1,16 @@
 package dk.kea;
 public class Database {
 
-    private String database;
-    private SuperHeroes[] superHeroes = new SuperHeroes[5];
-    public Database(){
-    superHeroes[0] = new SuperHeroes(" "," "," ");
-    superHeroes[1] = new SuperHeroes(" "," "," ");
-    superHeroes[2] = new SuperHeroes(" "," "," ");
-    superHeroes[3] = new SuperHeroes(" "," "," ");
-    superHeroes[4] = new SuperHeroes(" "," "," ");
+
+    public SuperHeroes[] superHeroesdata = new SuperHeroes[5];
+    int n = 0;
+    public void TilføjSuperHero(String superHeroName, String normalName, String superPower) {
+
+    SuperHeroes superHeroes = new SuperHeroes(superHeroName, normalName, superPower);
+
+    superHeroesdata[n] = superHeroes;
+
+    n++;
     }
 
-    public String getDatabase() {
-        return database;
-    }
 }
