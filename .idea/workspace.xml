@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba4e7d0-411f-4308-a55e-1617de18c0dd" name="Changes" comment="oprettelse af array i database, jeg kan dog ikke få det til at fungere endnu">
+    <list default="true" id="aba4e7d0-411f-4308-a55e-1617de18c0dd" name="Changes" comment="forbundet database med main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" afterDir="false" />
@@ -59,7 +59,7 @@
       <updated>1662971335233</updated>
       <workItem from="1662971336389" duration="12542000" />
       <workItem from="1663015755646" duration="20000" />
-      <workItem from="1663058073646" duration="5396000" />
+      <workItem from="1663058073646" duration="12116000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1662971614281</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663015490632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="forbundet database med main">
+      <created>1663063597613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663063597613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="oprettelse af objekt1 i main og superheroes klassen med konstruktøre og to string så jeg kan teste" />
     <MESSAGE value="oprettelse af array i database, jeg kan dog ikke få det til at fungere endnu" />
-    <option name="LAST_COMMIT_MESSAGE" value="oprettelse af array i database, jeg kan dog ikke få det til at fungere endnu" />
+    <MESSAGE value="forbundet database med main" />
+    <option name="LAST_COMMIT_MESSAGE" value="forbundet database med main" />
   </component>
 </project>

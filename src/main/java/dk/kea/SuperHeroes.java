@@ -16,11 +16,6 @@ public class SuperHeroes {
 
     }
 
-    /*public String getFullSuperHero() {
-        FullSuperHero = (superHeroName + ", " + normalName + ", " + superPower);
-        return FullSuperHero;
-    }*/
-
     public String getSuperHeroName(){
         return superHeroName;
     }
