@@ -4,7 +4,6 @@ public class SuperHeroes {
     private String superHeroName;
     private String normalName;
     private String superPower;
-    //private String FullSuperHero;
 
     public SuperHeroes(String superHeroName,String normalName,String superPower){
     this.superHeroName = superHeroName;
@@ -12,8 +11,9 @@ public class SuperHeroes {
     this.superPower = superPower;
     }
 
-    public SuperHeroes(){
-
+    public String toString(){
+        String FullSuperHero = "Superhelte navn: " + superHeroName + "\n" + "Borgerlige navn: " + normalName + "\n" + "Super kræft: " + superPower + "\n" + "\n";
+        return FullSuperHero;
     }
 
     public String getSuperHeroName(){
