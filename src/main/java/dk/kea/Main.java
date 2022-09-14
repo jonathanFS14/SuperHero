@@ -41,14 +41,16 @@ public class Main {
             else if (brugerinput == 3) {
                 System.out.println("Indtast superheltens navn");
             String searchForHero = sc.nextLine();
-            database.SearchForHero(searchForHero);
-                System.out.println(database.SearchForHero(searchForHero));
-
+            if (database.SearchForHero(searchForHero) == null){
+                System.out.println("Jeg kan ikke finde den person du leder efter, prøv igen" + "\n");
+            }
+            else {
+            System.out.println(database.SearchForHero(searchForHero));
+            }
             }
             else {
             System.exit(0);
             }
         } while (brugerinput != 9);
     }
-
 }

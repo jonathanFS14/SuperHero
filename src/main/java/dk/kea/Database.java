@@ -13,10 +13,9 @@ public class Database {
 
     public SuperHeroes SearchForHero(String superHeroName){
         for (SuperHeroes object : superHeroesdata ) {
-        if (object.getSuperHeroName().contains(superHeroName))
-            return object;
+        if (object.getSuperHeroName().contains(superHeroName)){
+            return object;}
         }
     return null;
     }
-
 }
