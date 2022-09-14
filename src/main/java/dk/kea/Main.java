@@ -10,6 +10,7 @@ public class Main {
                     Velkommen til superhelt databasen 
                     Tast 1 for et oprette en superhelt
                     Tast 2 for at se databasen
+                    Tast 3 for at søge efter en superhelt
                     Tast 9 for at afslutte programmet
                     """);
 
@@ -32,9 +33,16 @@ public class Main {
                 database.addSuperHero(superHeroName, normalName, superPower, originYear, strenght, isHuman);
             }
             else if (brugerinput == 2) {
-                System.out.println("Liste af superhelte:");
-                System.out.println("\n" + database.getSuperHeroesdata());
-                // TODO: lav loop der løber igennem alle og udskriver
+                System.out.println("Liste af superhelte: \n");
+                for (SuperHeroes i : database.getSuperHeroesdata()) {
+                    System.out.println(i);
+                }
+            }
+            else if (brugerinput == 3) {
+                System.out.println("Indtast superheltens navn");
+            String searchForHero = sc.nextLine();
+            database.SearchForHero(searchForHero);
+                System.out.println(database.SearchForHero(searchForHero));
 
             }
             else {

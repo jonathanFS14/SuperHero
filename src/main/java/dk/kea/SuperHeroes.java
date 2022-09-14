@@ -18,7 +18,7 @@ public class SuperHeroes {
     }
 
     public String toString(){
-        String FullSuperHero = "Superhelte navn: " + superHeroName + "\n" + "Borgerlige navn: " + normalName + "\n" + "Super kræft: " + superPower + "\n" + "Oprindelses år: " + originYear + "\n" + "Styrke 1-100: " + strenght + "\n" + "Er menneske: " + isHuman + "\n" + "\n";
+        String FullSuperHero = "Superhelte navn: " + superHeroName + "\n" + "Borgerlige navn: " + normalName + "\n" + "Super kræft: " + superPower + "\n" + "Oprindelses år: " + originYear + "\n" + "Styrke 1-100: " + strenght + "\n" + "Er et menneske: " + isHuman + "\n";
         return FullSuperHero;
     }
 

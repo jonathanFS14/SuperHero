@@ -10,4 +10,13 @@ public class Database {
     public ArrayList<SuperHeroes> getSuperHeroesdata() {
         return superHeroesdata;
     }
+
+    public SuperHeroes SearchForHero(String superHeroName){
+        for (SuperHeroes object : superHeroesdata ) {
+        if (object.getSuperHeroName().contains(superHeroName))
+            return object;
+        }
+    return null;
+    }
+
 }
