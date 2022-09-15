@@ -1,5 +1,5 @@
 package dk.kea;
-public class SuperHeroes {
+public class SuperHero {
 
     private String superHeroName;
     private String normalName;
@@ -8,7 +8,7 @@ public class SuperHeroes {
     private String strenght;
     private String isHuman;
 
-    public SuperHeroes(String superHeroName,String normalName,String superPower, String originYear, String strenght, String isHuman){
+    public SuperHero(String superHeroName, String normalName, String superPower, String originYear, String strenght, String isHuman){
     this.superHeroName = superHeroName;
     this.normalName = normalName;
     this.superPower = superPower;
