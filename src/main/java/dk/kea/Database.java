@@ -23,4 +23,8 @@ public class Database {
         return searchForHeroDatabase;
     }
 
+    public int getSize (){
+        return superHeroesdata.size();
+    }
+
 }
