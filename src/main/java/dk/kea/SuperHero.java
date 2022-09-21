@@ -4,11 +4,11 @@ public class SuperHero {
     private String superHeroName;
     private String normalName;
     private String superPower;
-    private String originYear;
-    private String strenght;
+    private int originYear;
+    private double strenght;
     private String isHuman;
 
-    public SuperHero(String superHeroName, String normalName, String superPower, String originYear, String strenght, String isHuman){
+    public SuperHero(String superHeroName, String normalName, String superPower, int originYear, double strenght, String isHuman){
     this.superHeroName = superHeroName;
     this.normalName = normalName;
     this.superPower = superPower;
@@ -43,17 +43,17 @@ public class SuperHero {
         this.superPower = superPower;
     }
 
-    public String getOriginYear() {
+    public int getOriginYear() {
         return originYear;
     }
-    public void setOriginYear(String originYear) {
+    public void setOriginYear(int originYear) {
         this.originYear = originYear;
     }
 
-    public String getStrenght() {
+    public double getStrenght() {
         return strenght;
     }
-    public void setStrenght(String strenght) {
+    public void setStrenght(double strenght) {
         this.strenght = strenght;
     }
 
