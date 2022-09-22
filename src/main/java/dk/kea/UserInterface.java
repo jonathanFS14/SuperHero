@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class UserInterface {
     private final Scanner sc = new Scanner(System.in);
-
+    Database database = new Database();
     public void StartProgram(){
-        Database database = new Database();
         int brugerinput = 0;
 
             do {
@@ -17,15 +16,17 @@ public class UserInterface {
                         Tast 2 for at se databasen
                         Tast 3 for at søge efter en superhelt
                         Tast 4 for ændre information for en eksisterende superhelt
-                        Tast 5 eller et højere tal for at afslutte programmet
+                        Tast 5 for at slette en superhelt fra databasen
+                        Tast 6 eller et højere tal for at afslutte programmet
                         """);
                 brugerinput = parseAsInt();
                 if (brugerinput == 1) {createHero(database);}
                 else if (brugerinput == 2) {showDatabase(database);}
                 else if (brugerinput == 3) {searchForHero(database);}
                 else if (brugerinput == 4) {editHero(database);}
+                else if (brugerinput == 5) {deleteHero();}
                 else {System.exit(0);}
-            } while (brugerinput <= 5);
+            } while (brugerinput <= 6);
          }
 
         public void createHero (Database database){
@@ -126,6 +127,19 @@ public class UserInterface {
         }
     }
 
-
+    public void deleteHero (){
+        for (int i = 0; i < database.getSize(); i++){
+            System.out.println(i+1 + ": " + database.getSuperHeroesdata().get(i).getSuperHeroName());
+        }
+        int searchForHero = sc.nextInt()-1;
+        sc.nextLine();
+        boolean isDeleted = database.deleteHero(database.getSuperHeroesdata().get(searchForHero));
+        if (isDeleted){
+            System.out.println("Superhelten er fjernet fra databasen" );
+        }
+        else {
+            System.out.println("superhelten blev ikke fjernet fra databasen");
+        }
+    }
 
 }

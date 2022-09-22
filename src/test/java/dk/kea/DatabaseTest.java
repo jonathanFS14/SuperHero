@@ -15,15 +15,18 @@ class DatabaseTest {
         database.getSuperHeroesdata().add(superhero1);
         database.getSuperHeroesdata().add(superhero2);
         database.getSuperHeroesdata().add(superhero3); }
-
     @org.junit.jupiter.api.Test
     void addSuperHero() {
     assertEquals(database.getSize(), 3);
     }
-
     @org.junit.jupiter.api.Test
     void searchForHeroDatabase() {
     assertEquals(database.searchForHeroDatabase("Superman").get(0).getSuperHeroName(),"Superman");
+    }
+
+    @Test
+    void deleteHero (){
+
     }
 
 

@@ -27,4 +27,8 @@ public class Database {
         return superHeroesdata.size();
     }
 
+    public boolean deleteHero (SuperHero superHero){
+    return superHeroesdata.remove(superHero);
+    }
+
 }
